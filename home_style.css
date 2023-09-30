@@ -1,0 +1,54 @@
+body{
+    margin:0px;
+    padding: 0;
+    font-family: Arial,sans-serif;
+    background-size: cover;
+    transition: background-image 1s ease-in-out;
+
+}
+.container{
+    background-color: purple;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px greenyellow;
+    padding: 40px;
+    margin: 50px;
+    max-width: 1000;
+    text-align: center;
+    color: darkgrey;
+
+
+}
+
+h2{
+
+    font-size: 50px;
+    margin-bottom: 40;
+}
+
+.botton-container button{
+    padding: 20px 10px;
+    background-color: lightcoral;
+    color : red;
+    border:none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 40px;
+}
+botton-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+
+
+}
+
+body.bg-1{
+    background-image: url('https://files.worldwildlife.org/wwfcmsprod/images/Tiger_resting_Bandhavgarh_National_Park_India/hero_small/6aofsvaglm_Medium_WW226365.jpg');
+
+}
+
+body.bg-2{
+    background-image: url('https://i.natgeofe.com/k/07176791-9577-4e31-b101-b10ca7ca9a3c/Stripes_Tiger-Terrific_KIDS_0722_4x3.jpg');
+
+}
